@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FORM PENDAFTARAN </title>
+    <link rel="stylesheet" href="./CSS_form/style_form.css">
+</head>
+<body>
+    <h1>FORM PENDAFTARAN</h1>
+    <form action="./data_pendaftar_html.html" method="GET" class="hform">
+     <fieldset>
+       <legend>Data Pribadi:</legend>
+       <label for="nama"><p>Nama:</p></label>
+       <input type="text" id="nama" name="nama"><br><br>
+       <label for="tanggallahir"><p>Tanggal Lahir:</p></label>
+       <input type="date" id="tanggallahir" name="tanggallahir"><br><br>
+       <label for="jeniskelamin"><p>Jenis Kelamin:</p></label>
+       <input type="list" id="jeniskelamin" name="jeniskelamin"><br><br>
+           <datalist id="jeniskelamin">
+             <option value="laki-laki">
+             <option value="perempuan">
+             </datalist><br><br>
+        <label for="agama"><p>Agama:</p></label>
+        <input type="agama" id="agama" name="agama"><br><br>
+        <label for="alamat"><p>Alamat:</p></label>
+        <textarea name="alamat" id="alamat" cols="50" rows="0"></textarea>
+        <label for="nomorHP"><p>Nomor HP:</p></label>
+        <input type="nomorHP" id="nomorHP" name="nomorHP"><br><br>
+        <label for="email"><p>Email:</p></label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" id="submit" value="submit"><br><br>
+    
+     </fieldset>
+    </form>
+
+
+</body>
+</html>
